@@ -1,0 +1,27 @@
+#fh5co-hero{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 630px;
+    height: 630px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #828282;
+}
+
+.teacher-item{
+    display : inline-block;
+    width: 270px;
+}
+.col-md-3.text-center.one-teacher{
+    width: 100%;
+}

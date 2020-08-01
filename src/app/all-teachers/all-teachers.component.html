@@ -1,0 +1,32 @@
+<div id="page">
+	<aside id="fh5co-hero" style="background-image: url(assets/images/img_bg_4.jpg); width: 100%;">
+		<div class="slider-text-inner">
+				<h1 class="heading-section">Our staff members</h1>
+		</div>
+	</aside>
+
+	
+
+	<div id="fh5co-staff">
+		<div class="container">
+			<div class="row">
+				<ul>
+					<li class="teacher-item" *ngFor="let item of items | async">
+						<div class="col-md-3 text-center one-teacher">
+							<div class="staff">
+								<div class="staff-img" >
+									<img src="{{item.img}}" alt="" height="280" width="200">
+								</div>
+								<span>Health Teacher</span>
+								<h3><a routerLink="/teacher">{{ item.name }}</a></h3>
+								<p>Nullam ac u condimentum sit  a augue. Sed non neque elit. Sed ut imperdiet nisi.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
